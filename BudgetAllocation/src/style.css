@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+input {
+  width: 60px;
+}
+
+button {
+  margin-right: 4px;
+  background-color:darkgoldenrod
+}
+.heading {
+ display: flex;
+ justify-content: center;
+}
+
+.total {
+  font-weight: bold;
+}
