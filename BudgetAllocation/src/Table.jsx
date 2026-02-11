@@ -41,6 +41,8 @@ export default function Table({ data }) {
 
     setRows(updated);
   };
+    const grandTotal = rows.reduce((sum, r) => sum + r.value, 0);
+
 
   return (
     <table>
@@ -87,6 +89,10 @@ export default function Table({ data }) {
             ))}
           </React.Fragment>
         ))}
+         <tr>
+          <td className="grandtotal">Grand Total</td>
+          <td className="grandtotal">{grandTotal}</td>
+        </tr>
       </tbody>
     </table>
   );

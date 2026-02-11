@@ -18,6 +18,11 @@ th, td {
 input {
   width: 60px;
 }
+.grandtotal {
+  background-color:wheat;
+  color: black;
+  font-weight: 800;
+}
 
 button {
   margin-right: 4px;
